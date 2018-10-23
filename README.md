@@ -1,3 +1,3 @@
 # redux-callable
 
-Stay tuned, documentation will be here soon :-)
+Creates reducers that can be called as they are, without dispatching action objects and keeping hundreds of `ACTION_TYPE` constants.

@@ -1,10 +1,10 @@
 {
   "name": "redux-callable",
   "version": "1.0.0",
-  "description": "https://github.com/artss/stickerity-ng/blob/master/web/src/util/saymyname.js will be placed here",
-  "main": "index.js",
+  "description": "Creates reducers that can be called as they are, without dispatching action objects",
+  "main": "dist/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "mkdir -p dist && babel -o dist/index.js src/index.js"
   },
   "repository": {
     "type": "git",
@@ -16,5 +16,16 @@
   "bugs": {
     "url": "https://github.com/artss/redux-callable/issues"
   },
-  "homepage": "https://github.com/artss/redux-callable#readme"
+  "homepage": "https://github.com/artss/redux-callable#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.1.2",
+    "@babel/core": "^7.1.2",
+    "@babel/plugin-proposal-object-rest-spread": "^7.0.0",
+    "@babel/preset-env": "^7.1.0",
+    "babel-eslint": "^10.0.1",
+    "babel-plugin-transform-export-extensions": "^6.22.0",
+    "eslint": "^5.7.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-plugin-import": "^2.14.0"
+  }
 }

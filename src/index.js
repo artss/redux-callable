@@ -1,4 +1,4 @@
-const PREFIX = 'saymyname';
+const PREFIX = 'callable';
 const DELIMITER = '.';
 const START = '@';
 
@@ -43,7 +43,7 @@ function identify(reducers, path = [], delimiter = DELIMITER) {
   return reducers;
 }
 
-export function saymyname(reducers, initialState, prefix, delimiter) {
+export function callable(reducers, initialState, prefix, delimiter) {
   return {
     ...identify(reducers, [prefix || PREFIX], delimiter),
     [initialStateSymbol]: initialState,
