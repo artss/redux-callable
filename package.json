@@ -1,0 +1,20 @@
+{
+  "name": "redux-callable",
+  "version": "1.0.0",
+  "description": "https://github.com/artss/stickerity-ng/blob/master/web/src/util/saymyname.js will be placed here",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/artss/redux-callable.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/artss/redux-callable/issues"
+  },
+  "homepage": "https://github.com/artss/redux-callable#readme"
+}
